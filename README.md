@@ -1,15 +1,14 @@
 # Luke's Hugo Theme
 
-A simple Hugo theme I plan on using for my personal website, [Based.Cooking](https://based.cooking) and [LandChad.net](https://landchad.net).
-
+A lightweight hugo theme I plan to use on caviomorpha.dev. Named after the famed Sumerian King.
 ## get started
 
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/lukesmithxyz/lugo themes/lugo
-echo "theme = 'lugo'" >> config.toml
-cp themes/lugo/static/style.css static/
+git clone https://github.com/127Gar/shulgi themes/lugo
+echo "theme = 'shulgi'" >> config.toml
+cp themes/shulgi/static/style.css static/
 ```
 
 ## stuff
@@ -19,3 +18,4 @@ cp themes/lugo/static/style.css static/
 - If a post is tagged, links to the tags are placed at the bottom of the post.
 - `nextprev.html` adds links to the Next and Previous articles to the bottom of a page.
 - `taglist.html` links all tags an article is tagged to for related content.
+- `rawhtml.html` for inserting raw HTML into markdown.
