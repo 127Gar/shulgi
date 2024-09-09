@@ -1,4 +1,4 @@
-# Luke's Hugo Theme
+# Mr Miller's Hugo Theme
 
 A lightweight hugo theme I plan to use on caviomorpha.dev. Named after the famed Sumerian King.
 ## get started
