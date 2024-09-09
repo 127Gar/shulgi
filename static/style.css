@@ -1,11 +1,11 @@
-body {
+html, body {
 	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc ;
+	background: mistyrose ;
+	color: black ;
 }
 
 main {
-	max-width: 800px ;
+	max-width: 90% ;
 	margin: auto ;
 }
 
@@ -43,3 +43,24 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+ @font-face {
+    font-family: "Computer Modern";
+    src: url('./fonts/cmu/cmuss.otf');
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('./fonts/cmu/cmunsx.otf');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('./fonts/cmu/cmunsi.otf');
+    font-style: italic, oblique;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('./fonts/cmu/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+  }
