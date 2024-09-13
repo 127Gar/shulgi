@@ -1,12 +1,12 @@
 # Mr Miller's Hugo Theme
 
-A lightweight hugo theme I plan to use on caviomorpha.dev. Named after [the famed Sumerian King](https://www.worldhistory.org/Shulgi_of_Ur/).
+A lightweight hugo theme used on [my website](https://caviomorpha.dev). Named after [the famed Sumerian King](https://www.worldhistory.org/Shulgi_of_Ur/).
 ## Configuration
 
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/127Gar/shulgi themes/lugo
+git clone https://github.com/127Gar/shulgi themes/shulgi
 echo "theme = 'shulgi'" >> config.toml
 cp themes/shulgi/static/style.css static/
 ```
