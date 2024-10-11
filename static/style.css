@@ -46,21 +46,21 @@ footer {
 
  @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmu/cmuss.otf');
+    src: url('./fonts/cmuss.otf');
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmu/cmunsx.otf');
+    src: url('./fonts/cmunsx.otf');
     font-weight: bold;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmu/cmunsi.otf');
+    src: url('./fonts/cmunsi.otf');
     font-style: italic, oblique;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmu/cmunbxo.otf');
+    src: url('./fonts/cmunbxo.otf');
     font-weight: bold;
     font-style: italic, oblique;
   }
