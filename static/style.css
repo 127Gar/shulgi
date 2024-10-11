@@ -45,22 +45,22 @@ footer {
 }
 
  @font-face {
-    font-family: "Computer Modern";
-    src: url('./fonts/cmuss.otf') format("opentype");
+    font-family: 'Computer Modern';
+    src: url('./fonts/cmuss.otf') format('opentype'),
+	 url('./fonts/cmuss.ttf') format('truetype'),
+	 url('.fonts/cmuss.woff') format('woff');
   }
   @font-face {
-    font-family: "Computer Modern";
-    src: url('./fonts/cmunsx.otf') format("opentype");
+    font-family: 'Computer Modern';
+    src: url('./fonts/cmunsx.otf') format('opentype'),
+	 url('./fonts/cmunsx.ttf') format('truetype'),
+	 url('./fonts/cmusx.woff') format('woff');
     font-weight: bold;
   }
   @font-face {
-    font-family: "Computer Modern";
-    src: url('./fonts/cmunsi.otf') format("opentype");
-    font-style: italic, oblique;
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('./fonts/cmunbxo.otf') format("opentype");
-    font-weight: bold;
+    font-family: 'Computer Modern';
+    src: url('./fonts/cmunsi.otf') format('opentype'),
+	 url('./fonts/cmunsi.ttf') format('truetype'),
+	 url('./fonts/cmunsi.woff') format('woff');
     font-style: italic, oblique;
   }
