@@ -1,5 +1,5 @@
 html, body {
-	font-family: sans-serif ;
+	font-family: "Computer Modern", sans-serif ;
 	background: mistyrose ;
 	color: black ;
 }
@@ -46,21 +46,21 @@ footer {
 
  @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmuss.otf');
+    src: url('./fonts/cmuss.otf') format("opentype");
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmunsx.otf');
+    src: url('./fonts/cmunsx.otf') format("opentype");
     font-weight: bold;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmunsi.otf');
+    src: url('./fonts/cmunsi.otf') format("opentype");
     font-style: italic, oblique;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('./fonts/cmunbxo.otf');
+    src: url('./fonts/cmunbxo.otf') format("opentype");
     font-weight: bold;
     font-style: italic, oblique;
   }
