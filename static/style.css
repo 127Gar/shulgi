@@ -1,5 +1,5 @@
-body, html {
-    font-family: 'CMU Sans Serif';
+* {
+    font-family: 'CMU Sans Serif' ;
     background: mistyrose ;
     color: black ;
 }
