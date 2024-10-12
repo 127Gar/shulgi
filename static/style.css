@@ -1,7 +1,7 @@
-html, body {
-	font-family: "Computer Modern", sans-serif;
-	background: mistyrose ;
-	color: black ;
+body, html {
+    font-family: 'CMU Sans Serif';
+    background: mistyrose ;
+    color: black ;
 }
 
 main {
@@ -44,23 +44,122 @@ footer {
 	max-width: 33% ;
 }
 
- @font-face {
-    font-family: 'Computer Modern';
-    src: url('./fonts/cmuss.otf') format('opentype'),
-	 url('./fonts/cmuss.ttf') format('truetype'),
-	 url('.fonts/cmuss.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'Computer Modern';
-    src: url('./fonts/cmunsx.otf') format('opentype'),
-	 url('./fonts/cmunsx.ttf') format('truetype'),
-	 url('./fonts/cmusx.woff') format('woff');
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-Oblique.woff') format('woff'),
+        url('fonts/CMUSansSerif-Oblique.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-Oblique.svg#CMUSansSerif-Oblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/cmunsi.woff') format('woff'),
+        url('fonts/cmunsi.ttf') format('truetype'),
+        url('fonts/cmunsi.svg#cmunsi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/cmunso.woff') format('woff'),
+        url('fonts/cmunso.ttf') format('truetype'),
+        url('fonts/cmunso.svg#cmunso') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-Oblique_1.woff') format('woff'),
+        url('fonts/CMUSansSerif-Oblique_1.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-Oblique_1.svg#CMUSansSerif-Oblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-BoldOblique.woff') format('woff'),
+        url('fonts/CMUSansSerif-BoldOblique.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-BoldOblique.svg#CMUSansSerif-BoldOblique') format('svg');
     font-weight: bold;
-  }
-  @font-face {
-    font-family: 'Computer Modern';
-    src: url('./fonts/cmunsi.otf') format('opentype'),
-	 url('./fonts/cmunsi.ttf') format('truetype'),
-	 url('./fonts/cmunsi.woff') format('woff');
-    font-style: italic, oblique;
-  }
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-BoldOblique_1.woff') format('woff'),
+        url('fonts/CMUSansSerif-BoldOblique_1.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-BoldOblique_1.svg#CMUSansSerif-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/cmunss.woff') format('woff'),
+        url('fonts/cmunss.ttf') format('truetype'),
+        url('fonts/cmunss.svg#cmunss') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif.woff') format('woff'),
+        url('fonts/CMUSansSerif.ttf') format('truetype'),
+        url('fonts/CMUSansSerif.svg#CMUSansSerif') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-Bold.woff') format('woff'),
+        url('fonts/CMUSansSerif-Bold.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-Bold.svg#CMUSansSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/cmunsx.woff') format('woff'),
+        url('fonts/cmunsx.ttf') format('truetype'),
+        url('fonts/cmunsx.svg#cmunsx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif_1.woff') format('woff'),
+        url('fonts/CMUSansSerif_1.ttf') format('truetype'),
+        url('fonts/CMUSansSerif_1.svg#CMUSansSerif') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('fonts/CMUSansSerif-Bold_1.woff') format('woff'),
+        url('fonts/CMUSansSerif-Bold_1.ttf') format('truetype'),
+        url('fonts/CMUSansSerif-Bold_1.svg#CMUSansSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
