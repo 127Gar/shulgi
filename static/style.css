@@ -1,5 +1,6 @@
 * {
     font-family: 'CMU Sans Serif' ;
+    font-style: normal ;
     background: mistyrose ;
     color: black ;
 }
@@ -60,7 +61,7 @@ footer {
         url('fonts/cmunsi.ttf') format('truetype'),
         url('fonts/cmunsi.svg#cmunsi') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -70,7 +71,7 @@ footer {
         url('fonts/cmunso.ttf') format('truetype'),
         url('fonts/cmunso.svg#cmunso') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -79,8 +80,8 @@ footer {
     src: url('fonts/CMUSansSerif-Oblique_1.woff') format('woff'),
         url('fonts/CMUSansSerif-Oblique_1.ttf') format('truetype'),
         url('fonts/CMUSansSerif-Oblique_1.svg#CMUSansSerif-Oblique') format('svg');
-    font-weight: 500;
-    font-style: italic;
+    font-weight: normal;
+    font-style: oblique;
     font-display: swap;
 }
 
@@ -90,7 +91,7 @@ footer {
         url('fonts/CMUSansSerif-BoldOblique.ttf') format('truetype'),
         url('fonts/CMUSansSerif-BoldOblique.svg#CMUSansSerif-BoldOblique') format('svg');
     font-weight: bold;
-    font-style: italic;
+    font-style: oblique;
     font-display: swap;
 }
 
@@ -100,7 +101,7 @@ footer {
         url('fonts/CMUSansSerif-BoldOblique_1.ttf') format('truetype'),
         url('fonts/CMUSansSerif-BoldOblique_1.svg#CMUSansSerif-BoldOblique') format('svg');
     font-weight: bold;
-    font-style: italic;
+    font-style: oblique;
     font-display: swap;
 }
 
@@ -130,7 +131,7 @@ footer {
         url('fonts/CMUSansSerif-Bold.ttf') format('truetype'),
         url('fonts/CMUSansSerif-Bold.svg#CMUSansSerif-Bold') format('svg');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
     font-display: swap;
 }
 
@@ -139,7 +140,7 @@ footer {
     src: url('fonts/cmunsx.woff') format('woff'),
         url('fonts/cmunsx.ttf') format('truetype'),
         url('fonts/cmunsx.svg#cmunsx') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -160,6 +161,6 @@ footer {
         url('fonts/CMUSansSerif-Bold_1.ttf') format('truetype'),
         url('fonts/CMUSansSerif-Bold_1.svg#CMUSansSerif-Bold') format('svg');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
     font-display: swap;
 }
